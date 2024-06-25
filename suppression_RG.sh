@@ -14,10 +14,8 @@
 
 
  # az storage account create --name $STORAGE_GROUP --resource-group $RESOURCE_GROUP --location $LOCATION 
-az storage account delete --name $STORAGE_GROUP --resource-group $RESOURCE_GROUP 
+ # az storage account delete --name $STORAGE_GROUP --resource-group $RESOURCE_GROUP 
 
 
- #pour créer un blob storage : uploader un fichier + créer un conteneur dans la même commande
-
-
-
+ # pour créer un blob storage : uploader un fichier + créer un conteneur dans la même commande
+ # ensuite downloader le fichier depuis le blob
